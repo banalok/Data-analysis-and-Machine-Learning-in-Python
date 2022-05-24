@@ -1,0 +1,14 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+ad = pd.read_csv("new 2.dat", header = None, sep='\s+')
+bd = pd.read_csv("new 1.dat", header = None, sep='\s+')
+
+plt.plot(ad.iloc[:,0], ad.iloc[:,1], "-", color='black', label="[ATP] in µM")
+plt.xlabel("Postion (nm)")
+plt.xlim(0, 20000)
+
+plt.plot(bd.iloc[:,0], bd.iloc[:,1], "-", color='red', label ="$[Ca^{2+}]$ in µM" )
+plt.xlim(0, 20000)
+plt.legend(loc = [0.65, 0.3])
+#("[ATP] in µM", "[Ca2+] concentration in µM", prop={"size":12}, fontsize=20)
