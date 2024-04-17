@@ -1,1 +1,1 @@
-My Machine Learning projects that include exploratory data analysis.
+This repository showcases my journey in guided Machine Learning (ML) projects, which I consider as the starting point of my progress. From these foundational projects, I have advanced significantly, demonstrating a wide range of skills and expertise in the field of ML.
